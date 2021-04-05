@@ -1,0 +1,199 @@
+ul.nobullet {
+	list-style: none;
+}
+ul.disc {
+	list-style: disc;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.circle {
+	list-style: circle;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.square {
+	list-style: square;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.dash {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+ul.dash li {
+	padding-left: 20px;
+	text-indent: -1em;
+}
+ul.dash li:before {
+	content: "-";
+	padding-right: 10px;
+}
+ul.decimal {
+	list-style: decimal;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.upper-roman {
+	list-style: upper-roman;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.lower-roman {
+	list-style: lower-roman;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.upper-alpha {
+	list-style: upper-alpha;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+ul.lower-alpha {
+	list-style: lower-alpha;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+
+.corner {
+	border-radius: 0px;
+}
+
+.toggle-button {
+	display: inline;
+	float: right;
+	font-size: 13px;
+	
+	
+}
+
+.toggle-button .toggle-option:first-child{
+	border-radius: 16px 0 0 16px;
+}
+.toggle-button .toggle-option:last-child{
+	border-radius: 0 16px 16px 0;
+}
+
+.toggle-option {
+	display: inline-block;
+	padding: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	cursor: pointer;
+	border-radius: 2px;
+	border: 0.5px #ffc107 solid;
+	background-color: #222;
+}
+.toggle-option:hover {
+	border: 0.5px #222 solid;
+	background-color: #ffc107;
+	color: black !important;
+}
+
+.toggle-option.selected {
+	/* background-color: #27AE60; */
+	/* background-color: #5cb85c; */
+	background-color: #ffc107;
+	color: black !important;
+}
+
+
+.custom-button {
+	display: inline-block;
+	width: 25px;
+	padding: 1%;
+	cursor: pointer;
+	border-radius: 2px !important;
+	background-color: #222;
+	border: 0.5px #3dd5f3 solid;
+}
+.custom-button:first-child{
+	border-radius: 16px 2px 2px 16px !important;
+}
+.custom-button-2 {
+	display: inline-block;
+	width: 25px;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 2px !important;
+	background-color: #222;
+	border: 0.5px #3dd5f3 solid;
+}
+.custom-button-2:last-child{
+	border-radius: 2px 16px 16px 2px !important;
+}
+.custom-button.selected,.custom-button.selected {
+	background-color: #3dd5f3;
+	/* #ffc107 */
+	color: #222;
+}
+
+
+
+.btn-group {
+	display: inline-block;
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.btn-violet {
+	background-color: #8E44AD;
+}
+.btn-teal {
+	background-color: #16a085;
+}
+
+
+
+kbd {
+	padding: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #666;
+}
+
+/* styles added to improve */
+
+h2, .h2{
+	font-size: 30px;
+}
+h4, .h4{
+	font-size: 18px;
+}
+
+h5, .h5{
+	font-size: 14px;
+}
+
+.default-icons{
+	font-size: 1.2rem;
+	color: #343a40 !important;
+	padding: 3px 3px 0 0;
+	margin-top: 2px;
+
+}
+
+.list-icons{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 0.8rem;
+}
+
+/* .list-icons-span{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 0.8rem;
+} */
+
+.custom-button:hover, .custom-button-2:hover {
+	background-color: #3dd5f3;
+	/* color: black !important; */
+}
+.custom-button:hover > .list-icons{
+	color: black !important;
+}
+.custom-button-2:hover > .list-icons{
+	color: black !important;
+}
